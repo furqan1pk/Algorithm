@@ -1,0 +1,465 @@
+[2024-01-25 00:53:40.248] [info] NeuroKey started at: 25 Jan 2024 12:53:40am
+[2024-01-25 00:53:40.248] [info] Start of NeuroKey V.2.6.1-b3891 log file.
+[2024-01-25 00:53:40.351] [info] Loading file /home/ability/NeuroKey/config/application-config.yaml
+[2024-01-25 00:53:40.351] [info] config file version: 1.0
+[2024-01-25 00:53:40.351] [info] modified: Fri Nov 24 04:20:49 2023
+[2024-01-25 00:53:40.351] [info] configuration:
+[2024-01-25 00:53:40.351] [info] 	Key: dataflow_location, Value: /home/ability/NeuroKey/dataflows
+[2024-01-25 00:53:40.351] [info] 	Key: file_location, Value: /data/NeuroKey
+[2024-01-25 00:53:40.351] [info] 	Key: language_path, Value: /usr/local/share/NeuroKey/lang
+[2024-01-25 00:53:40.351] [info] 	Key: locale, Value: English
+[2024-01-25 00:53:40.351] [info] 	Key: module_path, Value: /home/ability/NeuroKey/modules
+[2024-01-25 00:53:40.351] [info] 	Key: run_script, Value: false
+[2024-01-25 00:53:40.351] [info] 	Key: script, Value: /home/ability/NeuroKey/scripts/script.py
+[2024-01-25 00:53:40.351] [info] 	Key: script_iface, Value: nky://localhost:10142
+[2024-01-25 00:53:40.351] [info] Saving state file to /home/ability/NeuroKey/config/application-state.yaml
+[2024-01-25 00:53:40.351] [info] Overwriting existing state: /home/ability/NeuroKey/config/application-state.yaml
+[2024-01-25 00:53:40.351] [info] Saving state file to /home/ability/NeuroKey/config/application-state.yaml
+[2024-01-25 00:53:40.351] [info] Overwriting existing state: /home/ability/NeuroKey/config/application-state.yaml
+[2024-01-25 00:53:40.353] [info] Saving state file to /home/ability/NeuroKey/config/application-state.yaml
+[2024-01-25 00:53:40.353] [info] Overwriting existing state: /home/ability/NeuroKey/config/application-state.yaml
+[2024-01-25 00:53:40.367] [info] Dynamic module /home/ability/NeuroKey/modules/libLSL_Output.so registered.
+[2024-01-25 00:53:40.374] [info] Dynamic module /home/ability/NeuroKey/modules/libNIRS-BLE.so registered.
+[2024-01-25 00:53:40.377] [info] Dynamic module /home/ability/NeuroKey/modules/libLabStream.so registered.
+[2024-01-25 00:53:40.382] [info] Dynamic module /home/ability/NeuroKey/modules/libBrSDKv7.so registered.
+[2024-01-25 00:53:40.385] [info] Dynamic module /home/ability/NeuroKey/modules/libAffineTransform.so registered.
+[2024-01-25 00:53:40.388] [info] Dynamic module /home/ability/NeuroKey/modules/libDataPlayer.so registered.
+[2024-01-25 00:53:40.391] [info] Dynamic module /home/ability/NeuroKey/modules/libMAP-BLE.so registered.
+[2024-01-25 00:53:40.409] [info] Dynamic module /home/ability/NeuroKey/modules/libTESS21.so registered.
+[2024-01-25 00:53:40.413] [info] Dynamic module /home/ability/NeuroKey/modules/libTESS.so registered.
+[2024-01-25 00:53:40.414] [info] Broadcasting errors at address: tcp://0.0.0.0:10001
+[2024-01-25 00:53:40.421] [info] Application configuration:
+[2024-01-25 00:53:40.421] [info]    Version: 1.0
+[2024-01-25 00:53:40.421] [info]    Locale: English
+[2024-01-25 00:53:40.421] [info]    Save data path: /data/NeuroKey
+[2024-01-25 00:53:40.421] [info]    Dataflow path: /home/ability/NeuroKey/dataflows
+[2024-01-25 00:53:40.421] [info]    Messenger URL: nky://localhost:10142
+[2024-01-25 00:53:40.421] [info]    Default script: /home/ability/NeuroKey/scripts/script.py
+[2024-01-25 00:53:40.421] [info]    Run script on start: false
+[2024-01-25 00:53:40.421] [info] Application state:
+[2024-01-25 00:53:40.421] [info]    Last loaded pipeline: /home/ability/NeuroKey/dataflows/test_ability.yaml
+[2024-01-25 00:53:40.421] [info]    Last saved pipeline: /home/ability/NeuroKey/dataflows
+[2024-01-25 00:53:40.421] [info]    Last loaded script: /home/ability/NeuroKey/scripts/script.py
+[2024-01-25 00:53:40.421] [info]    Global data save status 1
+[2024-01-25 00:53:40.522] [info] Broadcasting errors at address: tcp://0.0.0.0:10001
+[2024-01-25 00:54:03.829] [info] Chosen file path /home/ability/NeuroKey/dataflows/test_ability.yaml
+[2024-01-25 00:54:03.829] [info] Loading pipeline /home/ability/NeuroKey/dataflows/test_ability.yaml
+[2024-01-25 00:54:03.829] [info] Pipeline cleared!
+[2024-01-25 00:54:03.835] [info] UART Read/Write threads started
+[2024-01-25 00:54:03.835] [info] ReadThread started
+[2024-01-25 00:54:03.835] [info] WriteThread started
+[2024-01-25 00:54:03.842] [info] int myFTDI::open(void), FTDI device open status 0
+[2024-01-25 00:54:03.854] [info] read EEPROM from FTDI  done with success devices
+[2024-01-25 00:54:03.854] [info] INFO: EEPROM already set with good parameters
+[2024-01-25 00:54:03.867] [info] Setup SYNC FIFO mode for FTDI IC done with success
+[2024-01-25 00:54:03.867] [info] Ability-Gate connected
+[2024-01-25 00:54:04.835] [info] Get Earpiece Info
+[2024-01-25 00:54:04.855] [info] Using Serial Port :/dev/ttyUSB0
+[2024-01-25 00:54:04.855] [info] Set Ability Power ON
+[2024-01-25 00:54:04.855] [info] Reboot Earpiece
+[2024-01-25 00:54:04.856] [info] Loading successful!
+[2024-01-25 00:54:04.857] [info] Saving state file to /home/ability/NeuroKey/config/application-state.yaml
+[2024-01-25 00:54:04.857] [info] Overwriting existing state: /home/ability/NeuroKey/config/application-state.yaml
+[2024-01-25 00:54:04.866] [info] Pipeline status changed -> Connecting
+[2024-01-25 00:54:05.476] [info] Fetched Earpiece ID : "0C473232363237300023001F"
+[2024-01-25 00:54:05.476] [info] Get Earpiece Info
+[2024-01-25 00:54:05.496] [info] Power RF coil On
+[2024-01-25 00:54:06.516] [info] Reboot Implant
+[2024-01-25 00:54:08.697] [info] Fetched Implant ID : "0747373435333434002D004C"
+[2024-01-25 00:54:08.697] [info] Get Implant Info
+[2024-01-25 00:54:09.178] [info] Fetched Implant LUT with size 128
+[2024-01-25 00:54:09.179] [info] Monitor thread started
+[2024-01-25 00:54:09.235] [info] Pipeline status changed -> ReadyToRun
+[2024-01-25 00:54:11.190] [info] Measuring impedances...
+[2024-01-25 00:54:11.190] [info] Power Implant On
+[2024-01-25 00:54:13.336] [error] Error measuring impedance of E0
+[2024-01-25 00:54:13.477] [info] Impedance of E1 = 86kOhms
+[2024-01-25 00:54:13.578] [info] Impedance of E2 = 37kOhms
+[2024-01-25 00:54:13.659] [info] Impedance of E3 = 36kOhms
+[2024-01-25 00:54:13.740] [info] Impedance of E4 = 24kOhms
+[2024-01-25 00:54:13.900] [info] Impedance of E5 = 73kOhms
+[2024-01-25 00:54:13.981] [info] Impedance of E6 = 87kOhms
+[2024-01-25 00:54:14.081] [info] Impedance of E7 = 63kOhms
+[2024-01-25 00:54:14.162] [info] Impedance of E8 = 55kOhms
+[2024-01-25 00:54:14.242] [info] Impedance of E9 = 52kOhms
+[2024-01-25 00:54:14.604] [info] Impedance of E10 = 64kOhms
+[2024-01-25 00:54:14.684] [info] Impedance of E11 = 51kOhms
+[2024-01-25 00:54:14.785] [info] Impedance of E12 = 242kOhms
+[2024-01-25 00:54:14.925] [info] Impedance of E13 = 1129kOhms
+[2024-01-25 00:54:15.066] [info] Impedance of E14 = 276kOhms
+[2024-01-25 00:54:15.367] [info] Impedance of E15 = 134kOhms
+[2024-01-25 00:54:15.448] [info] Impedance of E16 = 81kOhms
+[2024-01-25 00:54:15.528] [info] Impedance of E17 = 47kOhms
+[2024-01-25 00:54:15.689] [info] Impedance of E18 = 49kOhms
+[2024-01-25 00:54:15.769] [info] Impedance of E19 = 46kOhms
+[2024-01-25 00:54:15.849] [info] Impedance of E20 = 606kOhms
+[2024-01-25 00:54:15.949] [info] Impedance of E21 = 1176kOhms
+[2024-01-25 00:54:16.030] [info] Impedance of E22 = 1064kOhms
+[2024-01-25 00:54:16.110] [info] Impedance of E23 = 909kOhms
+[2024-01-25 00:54:16.271] [info] Impedance of E24 = 163kOhms
+[2024-01-25 00:54:16.351] [info] Impedance of E25 = 51kOhms
+[2024-01-25 00:54:16.451] [info] Impedance of E26 = 32kOhms
+[2024-01-25 00:54:16.592] [info] Impedance of E27 = 132kOhms
+[2024-01-25 00:54:16.732] [info] Impedance of E28 = 1745kOhms
+[2024-01-25 00:54:16.812] [info] Impedance of E29 = 2320kOhms
+[2024-01-25 00:54:16.974] [info] Impedance of E30 = 1998kOhms
+[2024-01-25 00:54:17.054] [info] Impedance of E31 = 1678kOhms
+[2024-01-25 00:54:17.135] [info] Impedance of E32 = 380kOhms
+[2024-01-25 00:54:17.216] [info] Impedance of E33 = 67kOhms
+[2024-01-25 00:54:17.356] [info] Impedance of E34 = 45kOhms
+[2024-01-25 00:54:17.436] [info] Impedance of E35 = 172kOhms
+[2024-01-25 00:54:17.537] [info] Impedance of E36 = 469kOhms
+[2024-01-25 00:54:17.677] [info] Impedance of E37 = 576kOhms
+[2024-01-25 00:54:17.757] [info] Impedance of E38 = 675kOhms
+[2024-01-25 00:54:17.838] [info] Impedance of E39 = 297kOhms
+[2024-01-25 00:54:17.919] [info] Impedance of E40 = 178kOhms
+[2024-01-25 00:54:17.999] [info] Impedance of E41 = 53kOhms
+[2024-01-25 00:54:18.080] [info] Impedance of E42 = 45kOhms
+[2024-01-25 00:54:18.220] [info] Impedance of E43 = 145kOhms
+[2024-01-25 00:54:18.300] [info] Impedance of E44 = 496kOhms
+[2024-01-25 00:54:18.380] [info] Impedance of E45 = 499kOhms
+[2024-01-25 00:54:18.461] [info] Impedance of E46 = 601kOhms
+[2024-01-25 00:54:18.541] [info] Impedance of E47 = 305kOhms
+[2024-01-25 00:54:18.621] [info] Impedance of E48 = 247kOhms
+[2024-01-25 00:54:18.762] [info] Impedance of E49 = 22kOhms
+[2024-01-25 00:54:18.842] [info] Impedance of E50 = 52kOhms
+[2024-01-25 00:54:18.922] [info] Impedance of E51 = 270kOhms
+[2024-01-25 00:54:19.002] [info] Impedance of E52 = 577kOhms
+[2024-01-25 00:54:19.062] [info] Impedance of E53 = 226kOhms
+[2024-01-25 00:54:19.163] [info] Impedance of E54 = 528kOhms
+[2024-01-25 00:54:19.243] [info] Impedance of E55 = 155kOhms
+[2024-01-25 00:54:19.323] [info] Impedance of E56 = 183kOhms
+[2024-01-25 00:54:19.403] [info] Impedance of E57 = 22kOhms
+[2024-01-25 00:54:19.484] [info] Impedance of E58 = 42kOhms
+[2024-01-25 00:54:19.564] [info] Impedance of E59 = 342kOhms
+[2024-01-25 00:54:19.744] [info] Impedance of E60 = 325kOhms
+[2024-01-25 00:54:19.885] [info] Impedance of E61 = 519kOhms
+[2024-01-25 00:54:19.965] [info] Impedance of E62 = 369kOhms
+[2024-01-25 00:54:20.045] [info] Impedance of E63 = 261kOhms
+[2024-01-25 00:54:20.125] [info] Impedance of E64 = 250kOhms
+[2024-01-25 00:54:20.206] [info] Impedance of E65 = 43kOhms
+[2024-01-25 00:54:20.286] [info] Impedance of E66 = 37kOhms
+[2024-01-25 00:54:20.366] [info] Impedance of E67 = 75kOhms
+[2024-01-25 00:54:20.446] [info] Impedance of E68 = 65kOhms
+[2024-01-25 00:54:20.587] [info] Impedance of E69 = 47kOhms
+[2024-01-25 00:54:20.667] [info] Impedance of E70 = 96kOhms
+[2024-01-25 00:54:20.887] [info] Impedance of E71 = 201kOhms
+[2024-01-25 00:54:20.968] [info] Impedance of E72 = 60kOhms
+[2024-01-25 00:54:21.108] [info] Impedance of E73 = 82kOhms
+[2024-01-25 00:54:21.188] [info] Impedance of E74 = 71kOhms
+[2024-01-25 00:54:21.349] [info] Impedance of E75 = 55kOhms
+[2024-01-25 00:54:21.429] [info] Impedance of E76 = 67kOhms
+[2024-01-25 00:54:21.509] [info] Impedance of E77 = 72kOhms
+[2024-01-25 00:54:21.589] [info] Impedance of E78 = 163kOhms
+[2024-01-25 00:54:21.670] [info] Impedance of E79 = 274kOhms
+[2024-01-25 00:54:21.750] [info] Impedance of E80 = 368kOhms
+[2024-01-25 00:54:21.830] [info] Impedance of E81 = 66kOhms
+[2024-01-25 00:54:21.970] [info] Impedance of E82 = 52kOhms
+[2024-01-25 00:54:22.051] [info] Impedance of E83 = 74kOhms
+[2024-01-25 00:54:22.131] [info] Impedance of E84 = 73kOhms
+[2024-01-25 00:54:22.211] [info] Impedance of E85 = 92kOhms
+[2024-01-25 00:54:22.291] [info] Impedance of E86 = 102kOhms
+[2024-01-25 00:54:22.372] [info] Impedance of E87 = 200kOhms
+[2024-01-25 00:54:22.452] [info] Impedance of E88 = 406kOhms
+[2024-01-25 00:54:22.532] [info] Impedance of E89 = 62kOhms
+[2024-01-25 00:54:22.613] [info] Impedance of E90 = 51kOhms
+[2024-01-25 00:54:22.693] [info] Impedance of E91 = 50kOhms
+[2024-01-25 00:54:22.773] [info] Impedance of E92 = 59kOhms
+[2024-01-25 00:54:22.934] [info] Impedance of E93 = 56kOhms
+[2024-01-25 00:54:23.015] [info] Impedance of E94 = 83kOhms
+[2024-01-25 00:54:23.155] [info] Impedance of E95 = 93kOhms
+[2024-01-25 00:54:23.296] [info] Impedance of E96 = 223kOhms
+[2024-01-25 00:54:23.376] [info] Impedance of E97 = 68kOhms
+[2024-01-25 00:54:23.456] [info] Impedance of E98 = 43kOhms
+[2024-01-25 00:54:23.536] [info] Impedance of E99 = 39kOhms
+[2024-01-25 00:54:23.617] [info] Impedance of E100 = 47kOhms
+[2024-01-25 00:54:23.697] [info] Impedance of E101 = 40kOhms
+[2024-01-25 00:54:23.777] [info] Impedance of E102 = 47kOhms
+[2024-01-25 00:54:23.898] [info] Impedance of E103 = 90kOhms
+[2024-01-25 00:54:23.978] [info] Impedance of E104 = 170kOhms
+[2024-01-25 00:54:24.059] [info] Impedance of E105 = 58kOhms
+[2024-01-25 00:54:24.139] [info] Impedance of E106 = 51kOhms
+[2024-01-25 00:54:24.220] [info] Impedance of E107 = 67kOhms
+[2024-01-25 00:54:24.381] [info] Impedance of E108 = 37kOhms
+[2024-01-25 00:54:24.462] [info] Impedance of E109 = 47kOhms
+[2024-01-25 00:54:24.543] [info] Impedance of E110 = 51kOhms
+[2024-01-25 00:54:24.624] [info] Impedance of E111 = 94kOhms
+[2024-01-25 00:54:24.765] [info] Impedance of E112 = 212kOhms
+[2024-01-25 00:54:24.925] [info] Impedance of E113 = 47kOhms
+[2024-01-25 00:54:25.006] [info] Impedance of E114 = 49kOhms
+[2024-01-25 00:54:25.086] [info] Impedance of E115 = 35kOhms
+[2024-01-25 00:54:25.227] [info] Impedance of E116 = 38kOhms
+[2024-01-25 00:54:25.307] [info] Impedance of E117 = 42kOhms
+[2024-01-25 00:54:25.388] [info] Impedance of E118 = 48kOhms
+[2024-01-25 00:54:25.549] [info] Impedance of E119 = 92kOhms
+[2024-01-25 00:54:25.629] [info] Impedance of E120 = 146kOhms
+[2024-01-25 00:54:25.710] [info] Impedance of E121 = 31kOhms
+[2024-01-25 00:54:25.850] [info] Impedance of E122 = 64kOhms
+[2024-01-25 00:54:25.930] [info] Impedance of E123 = 50kOhms
+[2024-01-25 00:54:26.031] [info] Impedance of E124 = 38kOhms
+[2024-01-25 00:54:26.111] [info] Impedance of E125 = 86kOhms
+[2024-01-25 00:54:26.312] [info] Impedance of E126 = 58kOhms
+[2024-01-25 00:54:26.393] [info] Impedance of E127 = 98kOhms
+[2024-01-25 00:54:26.393] [info] Success measuring impedances
+[2024-01-25 00:54:29.614] [info] Measuring impedances...
+[2024-01-25 00:54:29.614] [info] Power Implant On
+[2024-01-25 00:54:30.336] [error] Error measuring impedance of E0
+[2024-01-25 00:54:30.557] [info] Impedance of E1 = 82kOhms
+[2024-01-25 00:54:30.637] [info] Impedance of E2 = 36kOhms
+[2024-01-25 00:54:30.737] [info] Impedance of E3 = 36kOhms
+[2024-01-25 00:54:30.878] [info] Impedance of E4 = 24kOhms
+[2024-01-25 00:54:30.978] [info] Impedance of E5 = 75kOhms
+[2024-01-25 00:54:31.058] [info] Impedance of E6 = 95kOhms
+[2024-01-25 00:54:31.138] [info] Impedance of E7 = 63kOhms
+[2024-01-25 00:54:31.239] [info] Impedance of E8 = 54kOhms
+[2024-01-25 00:54:31.319] [info] Impedance of E9 = 51kOhms
+[2024-01-25 00:54:31.399] [info] Impedance of E10 = 64kOhms
+[2024-01-25 00:54:31.479] [info] Impedance of E11 = 51kOhms
+[2024-01-25 00:54:31.560] [info] Impedance of E12 = 235kOhms
+[2024-01-25 00:54:31.640] [info] Impedance of E13 = 1114kOhms
+[2024-01-25 00:54:31.740] [info] Impedance of E14 = 276kOhms
+[2024-01-25 00:54:31.820] [info] Impedance of E15 = 132kOhms
+[2024-01-25 00:54:31.901] [info] Impedance of E16 = 83kOhms
+[2024-01-25 00:54:32.001] [info] Impedance of E17 = 48kOhms
+[2024-01-25 00:54:32.081] [info] Impedance of E18 = 48kOhms
+[2024-01-25 00:54:32.161] [info] Impedance of E19 = 45kOhms
+[2024-01-25 00:54:32.242] [info] Impedance of E20 = 601kOhms
+[2024-01-25 00:54:32.322] [info] Impedance of E21 = 1174kOhms
+[2024-01-25 00:54:32.402] [info] Impedance of E22 = 1071kOhms
+[2024-01-25 00:54:32.482] [info] Impedance of E23 = 890kOhms
+[2024-01-25 00:54:32.623] [info] Impedance of E24 = 169kOhms
+[2024-01-25 00:54:32.783] [info] Impedance of E25 = 50kOhms
+[2024-01-25 00:54:32.864] [info] Impedance of E26 = 33kOhms
+[2024-01-25 00:54:32.944] [info] Impedance of E27 = 128kOhms
+[2024-01-25 00:54:33.024] [info] Impedance of E28 = 1725kOhms
+[2024-01-25 00:54:33.104] [info] Impedance of E29 = 2388kOhms
+[2024-01-25 00:54:33.205] [info] Impedance of E30 = 1836kOhms
+[2024-01-25 00:54:33.285] [info] Impedance of E31 = 1620kOhms
+[2024-01-25 00:54:33.365] [info] Impedance of E32 = 370kOhms
+[2024-01-25 00:54:33.445] [info] Impedance of E33 = 68kOhms
+[2024-01-25 00:54:33.526] [info] Impedance of E34 = 46kOhms
+[2024-01-25 00:54:33.686] [info] Impedance of E35 = 176kOhms
+[2024-01-25 00:54:33.766] [info] Impedance of E36 = 481kOhms
+[2024-01-25 00:54:33.847] [info] Impedance of E37 = 600kOhms
+[2024-01-25 00:54:33.947] [info] Impedance of E38 = 670kOhms
+[2024-01-25 00:54:34.027] [info] Impedance of E39 = 319kOhms
+[2024-01-25 00:54:34.108] [info] Impedance of E40 = 189kOhms
+[2024-01-25 00:54:34.188] [info] Impedance of E41 = 54kOhms
+[2024-01-25 00:54:34.268] [info] Impedance of E42 = 45kOhms
+[2024-01-25 00:54:34.349] [info] Impedance of E43 = 136kOhms
+[2024-01-25 00:54:34.449] [info] Impedance of E44 = 507kOhms
+[2024-01-25 00:54:34.529] [info] Impedance of E45 = 509kOhms
+[2024-01-25 00:54:34.610] [info] Impedance of E46 = 630kOhms
+[2024-01-25 00:54:34.690] [info] Impedance of E47 = 317kOhms
+[2024-01-25 00:54:34.770] [info] Impedance of E48 = 260kOhms
+[2024-01-25 00:54:34.850] [info] Impedance of E49 = 21kOhms
+[2024-01-25 00:54:34.951] [info] Impedance of E50 = 53kOhms
+[2024-01-25 00:54:35.031] [info] Impedance of E51 = 269kOhms
+[2024-01-25 00:54:35.111] [info] Impedance of E52 = 564kOhms
+[2024-01-25 00:54:35.191] [info] Impedance of E53 = 237kOhms
+[2024-01-25 00:54:35.272] [info] Impedance of E54 = 547kOhms
+[2024-01-25 00:54:35.352] [info] Impedance of E55 = 169kOhms
+[2024-01-25 00:54:35.452] [info] Impedance of E56 = 192kOhms
+[2024-01-25 00:54:35.532] [info] Impedance of E57 = 21kOhms
+[2024-01-25 00:54:35.613] [info] Impedance of E58 = 42kOhms
+[2024-01-25 00:54:35.693] [info] Impedance of E59 = 344kOhms
+[2024-01-25 00:54:35.773] [info] Impedance of E60 = 336kOhms
+[2024-01-25 00:54:35.853] [info] Impedance of E61 = 520kOhms
+[2024-01-25 00:54:35.954] [info] Impedance of E62 = 382kOhms
+[2024-01-25 00:54:36.094] [info] Impedance of E63 = 255kOhms
+[2024-01-25 00:54:36.174] [info] Impedance of E64 = 255kOhms
+[2024-01-25 00:54:36.255] [info] Impedance of E65 = 47kOhms
+[2024-01-25 00:54:36.335] [info] Impedance of E66 = 36kOhms
+[2024-01-25 00:54:36.415] [info] Impedance of E67 = 72kOhms
+[2024-01-25 00:54:36.495] [info] Impedance of E68 = 67kOhms
+[2024-01-25 00:54:36.636] [info] Impedance of E69 = 47kOhms
+[2024-01-25 00:54:36.716] [info] Impedance of E70 = 96kOhms
+[2024-01-25 00:54:36.796] [info] Impedance of E71 = 200kOhms
+[2024-01-25 00:54:36.877] [info] Impedance of E72 = 61kOhms
+[2024-01-25 00:54:36.937] [info] Impedance of E73 = 82kOhms
+[2024-01-25 00:54:37.037] [info] Impedance of E74 = 72kOhms
+[2024-01-25 00:54:37.117] [info] Impedance of E75 = 55kOhms
+[2024-01-25 00:54:37.198] [info] Impedance of E76 = 67kOhms
+[2024-01-25 00:54:37.278] [info] Impedance of E77 = 70kOhms
+[2024-01-25 00:54:37.358] [info] Impedance of E78 = 165kOhms
+[2024-01-25 00:54:37.438] [info] Impedance of E79 = 276kOhms
+[2024-01-25 00:54:37.539] [info] Impedance of E80 = 374kOhms
+[2024-01-25 00:54:37.619] [info] Impedance of E81 = 66kOhms
+[2024-01-25 00:54:37.699] [info] Impedance of E82 = 51kOhms
+[2024-01-25 00:54:37.779] [info] Impedance of E83 = 74kOhms
+[2024-01-25 00:54:37.860] [info] Impedance of E84 = 72kOhms
+[2024-01-25 00:54:38.000] [info] Impedance of E85 = 91kOhms
+[2024-01-25 00:54:38.161] [info] Impedance of E86 = 102kOhms
+[2024-01-25 00:54:38.241] [info] Impedance of E87 = 193kOhms
+[2024-01-25 00:54:38.322] [info] Impedance of E88 = 401kOhms
+[2024-01-25 00:54:38.523] [info] Impedance of E89 = 59kOhms
+[2024-01-25 00:54:38.604] [info] Impedance of E90 = 50kOhms
+[2024-01-25 00:54:38.684] [info] Impedance of E91 = 46kOhms
+[2024-01-25 00:54:38.764] [info] Impedance of E92 = 58kOhms
+[2024-01-25 00:54:38.905] [info] Impedance of E93 = 56kOhms
+[2024-01-25 00:54:38.985] [info] Impedance of E94 = 83kOhms
+[2024-01-25 00:54:39.065] [info] Impedance of E95 = 91kOhms
+[2024-01-25 00:54:39.145] [info] Impedance of E96 = 220kOhms
+[2024-01-25 00:54:39.226] [info] Impedance of E97 = 66kOhms
+[2024-01-25 00:54:39.306] [info] Impedance of E98 = 46kOhms
+[2024-01-25 00:54:39.387] [info] Impedance of E99 = 39kOhms
+[2024-01-25 00:54:39.528] [info] Impedance of E100 = 45kOhms
+[2024-01-25 00:54:39.608] [info] Impedance of E101 = 39kOhms
+[2024-01-25 00:54:39.688] [info] Impedance of E102 = 46kOhms
+[2024-01-25 00:54:39.769] [info] Impedance of E103 = 90kOhms
+[2024-01-25 00:54:39.849] [info] Impedance of E104 = 167kOhms
+[2024-01-25 00:54:39.930] [info] Impedance of E105 = 54kOhms
+[2024-01-25 00:54:40.010] [info] Impedance of E106 = 50kOhms
+[2024-01-25 00:54:40.090] [info] Impedance of E107 = 70kOhms
+[2024-01-25 00:54:40.191] [info] Impedance of E108 = 37kOhms
+[2024-01-25 00:54:40.271] [info] Impedance of E109 = 48kOhms
+[2024-01-25 00:54:40.351] [info] Impedance of E110 = 49kOhms
+[2024-01-25 00:54:40.431] [info] Impedance of E111 = 94kOhms
+[2024-01-25 00:54:40.512] [info] Impedance of E112 = 207kOhms
+[2024-01-25 00:54:40.592] [info] Impedance of E113 = 46kOhms
+[2024-01-25 00:54:40.692] [info] Impedance of E114 = 45kOhms
+[2024-01-25 00:54:40.772] [info] Impedance of E115 = 35kOhms
+[2024-01-25 00:54:40.853] [info] Impedance of E116 = 37kOhms
+[2024-01-25 00:54:40.933] [info] Impedance of E117 = 40kOhms
+[2024-01-25 00:54:41.013] [info] Impedance of E118 = 50kOhms
+[2024-01-25 00:54:41.094] [info] Impedance of E119 = 91kOhms
+[2024-01-25 00:54:41.194] [info] Impedance of E120 = 143kOhms
+[2024-01-25 00:54:41.274] [info] Impedance of E121 = 31kOhms
+[2024-01-25 00:54:41.415] [info] Impedance of E122 = 65kOhms
+[2024-01-25 00:54:41.495] [info] Impedance of E123 = 46kOhms
+[2024-01-25 00:54:41.575] [info] Impedance of E124 = 38kOhms
+[2024-01-25 00:54:41.736] [info] Impedance of E125 = 83kOhms
+[2024-01-25 00:54:41.876] [info] Impedance of E126 = 60kOhms
+[2024-01-25 00:54:41.957] [info] Impedance of E127 = 100kOhms
+[2024-01-25 00:54:41.957] [info] Success measuring impedances
+[2024-01-25 00:54:43.331] [info] Measuring impedances...
+[2024-01-25 00:54:43.331] [info] Power Implant On
+[2024-01-25 00:54:44.053] [error] Error measuring impedance of E0
+[2024-01-25 00:54:44.233] [info] Impedance of E1 = 82kOhms
+[2024-01-25 00:54:44.314] [info] Impedance of E2 = 36kOhms
+[2024-01-25 00:54:44.394] [info] Impedance of E3 = 35kOhms
+[2024-01-25 00:54:44.474] [info] Impedance of E4 = 23kOhms
+[2024-01-25 00:54:44.554] [info] Impedance of E5 = 78kOhms
+[2024-01-25 00:54:44.655] [info] Impedance of E6 = 100kOhms
+[2024-01-25 00:54:44.735] [info] Impedance of E7 = 63kOhms
+[2024-01-25 00:54:44.815] [info] Impedance of E8 = 56kOhms
+[2024-01-25 00:54:44.976] [info] Impedance of E9 = 51kOhms
+[2024-01-25 00:54:45.056] [info] Impedance of E10 = 64kOhms
+[2024-01-25 00:54:45.157] [info] Impedance of E11 = 52kOhms
+[2024-01-25 00:54:45.297] [info] Impedance of E12 = 241kOhms
+[2024-01-25 00:54:45.398] [info] Impedance of E13 = 1114kOhms
+[2024-01-25 00:54:45.478] [info] Impedance of E14 = 286kOhms
+[2024-01-25 00:54:45.558] [info] Impedance of E15 = 134kOhms
+[2024-01-25 00:54:45.658] [info] Impedance of E16 = 86kOhms
+[2024-01-25 00:54:45.739] [info] Impedance of E17 = 47kOhms
+[2024-01-25 00:54:45.819] [info] Impedance of E18 = 46kOhms
+[2024-01-25 00:54:45.899] [info] Impedance of E19 = 44kOhms
+[2024-01-25 00:54:45.979] [info] Impedance of E20 = 601kOhms
+[2024-01-25 00:54:46.059] [info] Impedance of E21 = 1135kOhms
+[2024-01-25 00:54:46.160] [info] Impedance of E22 = 1072kOhms
+[2024-01-25 00:54:46.240] [info] Impedance of E23 = 885kOhms
+[2024-01-25 00:54:46.320] [info] Impedance of E24 = 171kOhms
+[2024-01-25 00:54:46.400] [info] Impedance of E25 = 50kOhms
+[2024-01-25 00:54:46.541] [info] Impedance of E26 = 32kOhms
+[2024-01-25 00:54:46.621] [info] Impedance of E27 = 128kOhms
+[2024-01-25 00:54:46.701] [info] Impedance of E28 = 1736kOhms
+[2024-01-25 00:54:46.781] [info] Impedance of E29 = 2162kOhms
+[2024-01-25 00:54:46.862] [info] Impedance of E30 = 1902kOhms
+[2024-01-25 00:54:46.942] [info] Impedance of E31 = 1629kOhms
+[2024-01-25 00:54:47.022] [info] Impedance of E32 = 379kOhms
+[2024-01-25 00:54:47.102] [info] Impedance of E33 = 70kOhms
+[2024-01-25 00:54:47.182] [info] Impedance of E34 = 44kOhms
+[2024-01-25 00:54:47.263] [info] Impedance of E35 = 181kOhms
+[2024-01-25 00:54:47.363] [info] Impedance of E36 = 483kOhms
+[2024-01-25 00:54:47.503] [info] Impedance of E37 = 598kOhms
+[2024-01-25 00:54:47.584] [info] Impedance of E38 = 671kOhms
+[2024-01-25 00:54:47.724] [info] Impedance of E39 = 314kOhms
+[2024-01-25 00:54:47.804] [info] Impedance of E40 = 187kOhms
+[2024-01-25 00:54:47.904] [info] Impedance of E41 = 54kOhms
+[2024-01-25 00:54:47.985] [info] Impedance of E42 = 44kOhms
+[2024-01-25 00:54:48.065] [info] Impedance of E43 = 143kOhms
+[2024-01-25 00:54:48.145] [info] Impedance of E44 = 512kOhms
+[2024-01-25 00:54:48.225] [info] Impedance of E45 = 511kOhms
+[2024-01-25 00:54:48.306] [info] Impedance of E46 = 588kOhms
+[2024-01-25 00:54:48.406] [info] Impedance of E47 = 326kOhms
+[2024-01-25 00:54:48.486] [info] Impedance of E48 = 247kOhms
+[2024-01-25 00:54:48.687] [info] Impedance of E49 = 21kOhms
+[2024-01-25 00:54:48.767] [info] Impedance of E50 = 53kOhms
+[2024-01-25 00:54:48.847] [info] Impedance of E51 = 273kOhms
+[2024-01-25 00:54:48.947] [info] Impedance of E52 = 573kOhms
+[2024-01-25 00:54:49.028] [info] Impedance of E53 = 238kOhms
+[2024-01-25 00:54:49.108] [info] Impedance of E54 = 549kOhms
+[2024-01-25 00:54:49.188] [info] Impedance of E55 = 170kOhms
+[2024-01-25 00:54:49.268] [info] Impedance of E56 = 195kOhms
+[2024-01-25 00:54:49.348] [info] Impedance of E57 = 21kOhms
+[2024-01-25 00:54:49.449] [info] Impedance of E58 = 44kOhms
+[2024-01-25 00:54:49.529] [info] Impedance of E59 = 349kOhms
+[2024-01-25 00:54:49.609] [info] Impedance of E60 = 332kOhms
+[2024-01-25 00:54:49.689] [info] Impedance of E61 = 504kOhms
+[2024-01-25 00:54:49.770] [info] Impedance of E62 = 366kOhms
+[2024-01-25 00:54:49.850] [info] Impedance of E63 = 269kOhms
+[2024-01-25 00:54:50.010] [info] Impedance of E64 = 259kOhms
+[2024-01-25 00:54:50.151] [info] Impedance of E65 = 46kOhms
+[2024-01-25 00:54:50.231] [info] Impedance of E66 = 37kOhms
+[2024-01-25 00:54:50.311] [info] Impedance of E67 = 74kOhms
+[2024-01-25 00:54:50.391] [info] Impedance of E68 = 68kOhms
+[2024-01-25 00:54:50.492] [info] Impedance of E69 = 45kOhms
+[2024-01-25 00:54:50.572] [info] Impedance of E70 = 95kOhms
+[2024-01-25 00:54:50.652] [info] Impedance of E71 = 200kOhms
+[2024-01-25 00:54:50.732] [info] Impedance of E72 = 60kOhms
+[2024-01-25 00:54:50.812] [info] Impedance of E73 = 81kOhms
+[2024-01-25 00:54:50.893] [info] Impedance of E74 = 71kOhms
+[2024-01-25 00:54:50.993] [info] Impedance of E75 = 54kOhms
+[2024-01-25 00:54:51.193] [info] Impedance of E76 = 67kOhms
+[2024-01-25 00:54:51.274] [info] Impedance of E77 = 70kOhms
+[2024-01-25 00:54:51.354] [info] Impedance of E78 = 166kOhms
+[2024-01-25 00:54:51.434] [info] Impedance of E79 = 273kOhms
+[2024-01-25 00:54:51.595] [info] Impedance of E80 = 379kOhms
+[2024-01-25 00:54:51.675] [info] Impedance of E81 = 64kOhms
+[2024-01-25 00:54:51.755] [info] Impedance of E82 = 51kOhms
+[2024-01-25 00:54:51.835] [info] Impedance of E83 = 75kOhms
+[2024-01-25 00:54:51.915] [info] Impedance of E84 = 74kOhms
+[2024-01-25 00:54:51.996] [info] Impedance of E85 = 93kOhms
+[2024-01-25 00:54:52.156] [info] Impedance of E86 = 100kOhms
+[2024-01-25 00:54:52.236] [info] Impedance of E87 = 193kOhms
+[2024-01-25 00:54:52.316] [info] Impedance of E88 = 393kOhms
+[2024-01-25 00:54:52.397] [info] Impedance of E89 = 59kOhms
+[2024-01-25 00:54:52.477] [info] Impedance of E90 = 50kOhms
+[2024-01-25 00:54:52.577] [info] Impedance of E91 = 48kOhms
+[2024-01-25 00:54:52.657] [info] Impedance of E92 = 59kOhms
+[2024-01-25 00:54:52.798] [info] Impedance of E93 = 56kOhms
+[2024-01-25 00:54:52.878] [info] Impedance of E94 = 81kOhms
+[2024-01-25 00:54:52.958] [info] Impedance of E95 = 92kOhms
+[2024-01-25 00:54:53.038] [info] Impedance of E96 = 221kOhms
+[2024-01-25 00:54:53.119] [info] Impedance of E97 = 67kOhms
+[2024-01-25 00:54:53.199] [info] Impedance of E98 = 43kOhms
+[2024-01-25 00:54:53.279] [info] Impedance of E99 = 37kOhms
+[2024-01-25 00:54:53.359] [info] Impedance of E100 = 45kOhms
+[2024-01-25 00:54:53.440] [info] Impedance of E101 = 39kOhms
+[2024-01-25 00:54:53.520] [info] Impedance of E102 = 45kOhms
+[2024-01-25 00:54:53.620] [info] Impedance of E103 = 90kOhms
+[2024-01-25 00:54:53.700] [info] Impedance of E104 = 165kOhms
+[2024-01-25 00:54:53.780] [info] Impedance of E105 = 54kOhms
+[2024-01-25 00:54:53.861] [info] Impedance of E106 = 49kOhms
+[2024-01-25 00:54:53.941] [info] Impedance of E107 = 66kOhms
+[2024-01-25 00:54:54.081] [info] Impedance of E108 = 37kOhms
+[2024-01-25 00:54:54.422] [info] Impedance of E109 = 46kOhms
+[2024-01-25 00:54:54.502] [info] Impedance of E110 = 50kOhms
+[2024-01-25 00:54:54.583] [info] Impedance of E111 = 93kOhms
+[2024-01-25 00:54:54.683] [info] Impedance of E112 = 193kOhms
+[2024-01-25 00:54:54.823] [info] Impedance of E113 = 47kOhms
+[2024-01-25 00:54:54.903] [info] Impedance of E114 = 48kOhms
+[2024-01-25 00:54:54.984] [info] Impedance of E115 = 36kOhms
+[2024-01-25 00:54:55.064] [info] Impedance of E116 = 36kOhms
+[2024-01-25 00:54:55.305] [info] Impedance of E117 = 38kOhms
+[2024-01-25 00:54:55.385] [info] Impedance of E118 = 48kOhms
+[2024-01-25 00:54:55.525] [info] Impedance of E119 = 91kOhms
+[2024-01-25 00:54:55.605] [info] Impedance of E120 = 143kOhms
+[2024-01-25 00:54:55.686] [info] Impedance of E121 = 31kOhms
+[2024-01-25 00:54:55.786] [info] Impedance of E122 = 64kOhms
+[2024-01-25 00:54:55.866] [info] Impedance of E123 = 49kOhms
+[2024-01-25 00:54:55.946] [info] Impedance of E124 = 39kOhms
+[2024-01-25 00:54:56.027] [info] Impedance of E125 = 86kOhms
+[2024-01-25 00:54:56.107] [info] Impedance of E126 = 60kOhms
+[2024-01-25 00:54:56.187] [info] Impedance of E127 = 98kOhms
+[2024-01-25 00:54:56.187] [info] Success measuring impedances
